@@ -1,0 +1,189 @@
+
+/* 
+    Created on : 01/03/2019, 16:43:03
+    Author     : alissoncarvalho
+*/
+
+@keyframes banner{
+    0%{
+        background: url(../images/ceu2.png)  ;
+        /*
+        background-size: cover;
+        background-position: center;
+        */
+    }
+    25%{
+        background: url(../images/folha2.png) ;
+        /*
+        background-size: cover;
+        background-position: center;
+        */
+    }
+    50%{
+        background: url(../images/ceu2.png) ;
+       /*
+        background-size: cover;
+        background-position: center;
+        */
+    }
+    75%{
+        background: url(../images/folha2.png) ;
+        /*
+        background-size: cover;
+        background-position: center;
+        */
+    }
+    100%{
+        background: url(../images/ceu2.png)  ;
+        /*
+        background-size: cover;
+        background-position: center;
+        */
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    
+}
+
+.topo1{
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+}
+.container{
+    display: flex;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo1left, .topo1right{
+    height: 100%;
+}
+
+.topo1left > ul, .topo1right > ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+
+.topo1left > ul > li, .topo1right > ul > li{
+    height: 100%;
+    line-height: 40px;
+    padding-right: 15px;
+}
+
+.topo1left > ul > li:hover > a{
+    color: #8C8792;
+}
+
+
+.topo1left > ul > li > a{
+    color: white;
+    font-weight: 200;
+}
+
+.topo1right > ul > li > a{
+    color: white;
+    font-weight: 200;
+}
+
+.topo2{
+    width: 100%;
+    height: 80px;
+    background-color: #38363A;
+}
+.logo{
+    display: flex;
+    padding-right: 15px;
+    height: 60px;
+    align-items: center;
+}
+.nome{
+    font-size: 25px;
+}
+
+.topo3{
+    width: 100%;
+    height: 300px;
+}
+
+.banner{
+    height: 300px;
+    width: 1000px;
+    animation-name: banner;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+main{
+    
+}
+
+article{
+    margin: 0 auto;
+}
+section > a{
+    margin-top:15px;
+    color: white;
+    padding: 10px 5px;
+    background-color: #ccc;
+    border: 1px solid #bbb;
+}
+
+section > a:hover{
+    margin-top:15px;
+    color: black;
+    padding: 10px 5px;
+    background-color: #aaa;
+    border: 1px solid #bbb;
+}
+table{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table a{
+    color: black;
+}
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+    background-color: #38363A;
+}
+
+.titulo{
+    margin-bottom: 15px;
+}
+.conteudo a{
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.conteudo a:hover{
+    color: #8C8792;
+}
+
+

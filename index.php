@@ -15,7 +15,7 @@
                         <ul>
                             
                                 <li><a class="ativo" href = "index.php">Home</a></li>
-                                <li><a href = "santa.php">Santa Teresinha</a></li>
+                                <li><a href = "">Login</a></li>
                                 <li><a href = "">Usuário</a></li>
                                 <li><a href = "">Turma</a></li>
                                 <li><a href = "">Disciplina</a></li>
